@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import LandingPage from "./jamesrental-frontend/pages/LandingPages";
+import LandingPages from "./jamesrental-frontend/pages/LandingPages";
 import Header from "./jamesrental-frontend/source/Header";
 
 
@@ -9,7 +9,7 @@ function App () {
   <Header>
     <Router>
       <Switch>
-        <Route path='/' exact component={LandingPage}/>
+        <Route path='/' exact component={LandingPages}/>
       </Switch>
       </Router>
   </Header>
